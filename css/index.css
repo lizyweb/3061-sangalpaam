@@ -1,0 +1,47 @@
+:root {
+    --brand: #01b5fb;
+    --sub: #6ac754;
+    --body: #516171;
+    --border: rgba(0,0,0,0.08);
+    --shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+
+.slide-sub-title {
+    font-style: normal;
+    font-size: 42px;
+    line-height: 58px;
+    margin: 20px 0;
+    color: var(--brand);
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .slide-sub-title {
+      font-size: 38px;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    .slide-sub-title {
+      font-size: 30px;
+      line-height: 30px;
+    }
+  }
+
+  .call-btn{
+    padding: 10px 30px;
+    background-color: var(--brand);
+    color: white;
+    border: 2px solid var(--brand);
+  }
+  .call-btn:hover{
+    background-color: transparent;
+    color: var(--brand) !important;
+  }
+
+  .topbar{
+    background-color: var(--brand);
+  }
